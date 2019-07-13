@@ -1,0 +1,13 @@
+.author-info,
+.author-address,
+.author-company {
+    border: 1px solid lightslategray;
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    align-items: flex-start !important;
+}
+
+.author-info-body {
+    flex: 1 0 auto;
+    margin-left: 2rem;
+}

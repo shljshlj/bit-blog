@@ -1,0 +1,5 @@
+.post-list li {
+    margin: 1rem 0;
+    padding: .5rem .3rem;
+    border-bottom: 1px solid lightslategray;
+}

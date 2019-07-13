@@ -1,0 +1,36 @@
+.new-post-body textarea {
+    max-width: 100%;
+    border: 1px solid lightslategrey;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px;
+
+}
+
+.new-post-title input{
+   min-width: 25%;
+   border: none;
+   border-bottom: 1px solid lightslategrey;
+   font-size: 1rem;
+   padding: 5px;
+}
+
+.form-buttons > * {
+    border-bottom: 1px solid lightslategrey;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    padding: 5px;
+   margin-right: 10px;
+}
+
+.new-post-main-title{
+    margin-bottom: 30px;
+}
+
+form div {
+    margin: 20px 0;
+}
+
+form h2 {
+    margin-bottom: 10px;
+}
