@@ -10,7 +10,7 @@ class PostsPage extends Component {
             posts: [],
         }
     }
-    
+
     fetchPosts = () => {
         postService.fetchPosts()
             .then(listOfPosts => this.setState({
@@ -24,7 +24,10 @@ class PostsPage extends Component {
 
     render() {
         return (
-            <PostList posts={this.state.posts} />
+            <>
+                <img src="img/anitaEkb.jpg" alt="Actress Anita Ekberg" />
+                <PostList posts={this.state.posts} />
+            </>
         )
     }
 }
