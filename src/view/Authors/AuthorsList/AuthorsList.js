@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const AuthorsList = ({ authors }) => {
     return (
         <ul className="authors-list">
-            {authors.map(author => <li><Link to={`/authors/${author.authorId}`}>{author.name}</Link></li>)}
+            {authors.map(author => <li><Link to={`/bit-blog/authors/${author.authorId}`}>{author.name}</Link></li>)}
         </ul>
     )
 }

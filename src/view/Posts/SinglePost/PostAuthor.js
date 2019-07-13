@@ -36,7 +36,7 @@ class PostAuthor extends Component {
 
 
         return (
-            <Link to={`/authors/${authorId}`}><h3>{name}</h3></Link>
+            <Link to={`/bit-blog/authors/${authorId}`}><h3>{name}</h3></Link>
         )
     }
 }

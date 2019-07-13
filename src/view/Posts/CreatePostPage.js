@@ -36,7 +36,7 @@ class CreatePostPage extends Component {
             userId: userId,
         })
             .then(response => {
-                this.props.history.push('/');
+                this.props.history.push('/bit-blog');
             });
 
     }
@@ -44,7 +44,7 @@ class CreatePostPage extends Component {
     onCancelForm = (event) => {
         event.preventDefault();
 
-        this.props.history.push('/');
+        this.props.history.push('/bit-blog');
     }
 
     render() {

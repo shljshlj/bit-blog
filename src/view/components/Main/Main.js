@@ -11,12 +11,12 @@ const Main = () => {
     return (
         <main className='container'>
             <Switch>
-                <Route exact path="/posts/:authorId/:postId" component={SinglePostPage} />
-                <Route path="/posts/new" component={CreatePostPage} />
-                <Route path="/authors/:authorId" component={SingleAuthorPage} />
-                <Route path="/authors" component={AuthorsPage} />
-                <Route path="/about" component={About} />
-                <Route path="/" component={PostsPage} />
+                <Route exact path="/bit-blog/posts/:authorId/:postId" component={SinglePostPage} />
+                <Route path="/bit-blog/posts/new" component={CreatePostPage} />
+                <Route path="/bit-blog/authors/:authorId" component={SingleAuthorPage} />
+                <Route path="/bit-blog/authors" component={AuthorsPage} />
+                <Route path="/bit-blog/about" component={About} />
+                <Route path="/bit-blog" component={PostsPage} />
             </Switch>
         </main>
     )
