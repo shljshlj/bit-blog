@@ -34,7 +34,7 @@ class SingleAuthorPage extends Component {
             return (
                 <>
                     <nav className="back">
-                        <Link to='/bit-blog'>Back</Link>
+                        <Link to='/'>Back</Link>
                     </nav>
                     <AuthorInfo
                         name={name}

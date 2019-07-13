@@ -44,7 +44,7 @@ class RelatedPosts extends Component {
                 <h2> more posts from same author</h2>
                 <ul>
                     {posts.map(({ title, body, authorId, postId }, index) => <li key={index}>
-                        <Link to={`/bit-blog/posts/${authorId}/${postId}`}><span className="bold">{title.slice(0, 15)}</span> - {body.slice(0, 70)}</Link>
+                        <Link to={`/posts/${authorId}/${postId}`}><span className="bold">{title.slice(0, 15)}</span> - {body.slice(0, 70)}</Link>
                     </li>)}
 
                 </ul>
