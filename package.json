@@ -1,6 +1,6 @@
 {
-  "homepage": "http://shljshlj.github.io/bit-blog",
   "name": "blog",
+  "homepage": "http://shljshlj.github.io/bit-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
