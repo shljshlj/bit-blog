@@ -26,6 +26,8 @@ class PostsPage extends Component {
         return (
             <>
                 <img src="img/anitaEkb.jpg" alt="Actress Anita Ekberg" />
+                <br />
+                <img src="img/anouk.gif" alt="Actress Anouk Aimée" />
                 <PostList posts={this.state.posts} />
             </>
         )
