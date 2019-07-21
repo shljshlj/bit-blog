@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bit-blog/static/css/main.b4607a43.chunk.css",
-    "main.js": "/bit-blog/static/js/main.1753d7f4.chunk.js",
-    "main.js.map": "/bit-blog/static/js/main.1753d7f4.chunk.js.map",
+    "main.css": "/bit-blog/static/css/main.820e3a01.chunk.css",
+    "main.js": "/bit-blog/static/js/main.50153b83.chunk.js",
+    "main.js.map": "/bit-blog/static/js/main.50153b83.chunk.js.map",
     "runtime~main.js": "/bit-blog/static/js/runtime~main.3d350344.js",
     "runtime~main.js.map": "/bit-blog/static/js/runtime~main.3d350344.js.map",
-    "static/js/2.51f5f5d1.chunk.js": "/bit-blog/static/js/2.51f5f5d1.chunk.js",
-    "static/js/2.51f5f5d1.chunk.js.map": "/bit-blog/static/js/2.51f5f5d1.chunk.js.map",
+    "static/js/2.5abd3462.chunk.js": "/bit-blog/static/js/2.5abd3462.chunk.js",
+    "static/js/2.5abd3462.chunk.js.map": "/bit-blog/static/js/2.5abd3462.chunk.js.map",
     "index.html": "/bit-blog/index.html",
-    "precache-manifest.85aa53dce0f2401a51051ca95ddc4134.js": "/bit-blog/precache-manifest.85aa53dce0f2401a51051ca95ddc4134.js",
+    "precache-manifest.a327b3bb64ef8fad91d2518ce963a34d.js": "/bit-blog/precache-manifest.a327b3bb64ef8fad91d2518ce963a34d.js",
     "service-worker.js": "/bit-blog/service-worker.js",
-    "static/css/main.b4607a43.chunk.css.map": "/bit-blog/static/css/main.b4607a43.chunk.css.map"
+    "static/css/main.820e3a01.chunk.css.map": "/bit-blog/static/css/main.820e3a01.chunk.css.map"
   }
 }
