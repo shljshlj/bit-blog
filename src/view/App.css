@@ -3,41 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 #root {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
 main {
-    flex: 1 0 auto;
-    padding: 2rem 0;
-    
+    flex: 1 0 auto;   
 }
+
 header, footer {
     height: 10vh;
     background-color: lightslategray;
     color: whitesmoke;
 }
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+.header--hidden {
+    transform: translateY(-100%);
+}
+
 .container { 
     width: 70vw;
     margin: 0 auto;
 }
+
+.top-offset {
+    margin-top: calc(2rem + 10vh);
+    margin-bottom: 2rem
+}
+
 .flex-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
+
 ul li {
     list-style-type: none;
 }
+
 .header-menu ul {
     display: flex;
 }
+
 .header-menu li {
     margin-left: 10px;
 }

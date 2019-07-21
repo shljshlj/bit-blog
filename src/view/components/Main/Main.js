@@ -9,7 +9,7 @@ import { CreatePostPage } from '../../Posts/CreatePostPage'
 
 const Main = () => {
     return (
-        <main className='container'>
+        <main className='container top-offset'>
             <Switch>
                 <Route exact path="/posts/:authorId/:postId" component={SinglePostPage} />
                 <Route path="/posts/new" component={CreatePostPage} />
